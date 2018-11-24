@@ -1,3 +1,5 @@
-var playlist = { artist: "songTITLE"}
+var playlist = { artistName: "songTITLE"}
 
-function removePlaylist (playlist, artist, songTitle)
+function removePlaylist (playlist, artistName, songTitle){
+  playlist.artistName = 'songTitle'
+}
